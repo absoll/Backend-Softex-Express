@@ -1,0 +1,29 @@
+Instalar em ordem:
+
+//Criar estrutura de projeto padrao nodeJS
+npm init -y
+
+//Instalar o typescript e ts-node
+npm install -D typescript ts-node
+
+//Instalar a dependencia de Typescript para o nodeJS
+//@types/ - São pacotes que fornecem definições de tipo TypeScript para bibliotecas JavaScript existentes que não foram originalmente escritas em TypeScript.
+npm install @types/node
+
+//Instalar o express como dependencia do projeto
+npm install -D express
+
+//Trabalhar com requisicao e resposta em Typescript no express
+npm install @types/express
+
+//Realizar a manipulação de rotas -> necessario para executar o "requisicoes.ts"
+npm install body-parser
+
+
+OBS:
+EXTRAS:
+
+Para facilitar o desenvolvimento Back, isntalar tambem:
+REST CLIENT -> facilita na hora de testar as requisicoes recebidas
+
+
