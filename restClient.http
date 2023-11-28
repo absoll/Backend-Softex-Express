@@ -7,3 +7,33 @@ GET http://localhost:3000/teste
 ###
 
 GET http://localhost:3000/livros
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{ 
+  "titulo": "Portugol para Iniciantes", 
+  "autor": "Jane Smith" 
+}
+
+###
+
+PUT http://localhost:3000/livro/1/
+Content-Type: application/json
+
+{ 
+    "titulo": "Portugol para Iniciantes", 
+    "autor": "Jane Smith"
+}
+
+###
+
+PUT http://localhost:3000/livro/1/testei
+Content-Type: application/json
+
+{ 
+    "titulo": "Portugol para Iniciantes", 
+    "autor": "Jane Smith"
+}
